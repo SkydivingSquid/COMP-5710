@@ -1,0 +1,13 @@
+The following reports the 3 most frequently seen weaknesses in workshop2.
+The name of the weakness is listed, its description, and the number found. 
+
+[Begin Report]
+
+>> Issue: [B101:assert_used] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code. [30]
+
+>> Issue: [B311:blacklist] Standard pseudo-random generators are not suitable for security/cryptographic purposes. [7]
+
+>> Issue: [B603:subprocess_without_shell_equals_true] subprocess call - check for execution of untrusted input. [2]
+
+
+[End Report]

@@ -1,0 +1,57 @@
+Martin@MacBook-Pro-7 Workshop_01 % bandit -r source.py
+[main]	INFO	profile include tests: None
+[main]	INFO	profile exclude tests: None
+[main]	INFO	cli include tests: None
+[main]	INFO	cli exclude tests: None
+[main]	INFO	running on Python 3.10.6
+[node_visitor]	WARNING	Unable to find qualified name for module: source.py
+Run started:2023-01-26 02:17:22.931260
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 19
+	Total lines skipped (#nosec): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+Martin@MacBook-Pro-7 Workshop_01 % bandit -r test.py  
+[main]	INFO	profile include tests: None
+[main]	INFO	profile exclude tests: None
+[main]	INFO	cli include tests: None
+[main]	INFO	cli exclude tests: None
+[main]	INFO	running on Python 3.10.6
+[node_visitor]	WARNING	Unable to find qualified name for module: test.py
+Run started:2023-01-26 02:17:43.475966
+
+Test results:
+	No issues identified.
+
+Code scanned:
+	Total lines of code: 34
+	Total lines skipped (#nosec): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 0
+Files skipped (0):
+
